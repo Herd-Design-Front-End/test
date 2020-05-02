@@ -52,8 +52,6 @@
 			$(".mainmenu").toggleClass("active");
 		});
 		
-		var test = function(){
-			console.log('test 123');
-		}
+		
 	});
 }(jQuery));
