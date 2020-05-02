@@ -37,7 +37,9 @@
 				}
 				},
 			]				
-		});	
+		});
+		
+		// comment here
 		$(".wrp-listtestimoni").slick({
 			dots: false,
 			arrows:true,
