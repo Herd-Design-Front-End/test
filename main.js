@@ -49,10 +49,8 @@
 			slidesToScroll: 1,		
 			autoplay:false		
 		});	
-		$(".navmenu").click(function(){
-			$(this).toggleClass("active");
-			$(".mainmenu").toggleClass("active");
-		});
+		
+		// comment here
 		
 		
 	});
