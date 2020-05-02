@@ -1,3 +1,4 @@
+(function(){
 $(window).on('load', function () {
 		$(".loader").delay(300).fadeOut("slow");
 	});
@@ -48,3 +49,4 @@ $(window).on('load', function () {
 			$(".mainmenu").toggleClass("active");
 		});	
 	});
+}());
