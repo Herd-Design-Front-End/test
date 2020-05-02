@@ -1,4 +1,6 @@
 (function(){
+	
+	//comment here
 $(window).on('load', function () {
 		$(".loader").delay(300).fadeOut("slow");
 	});
