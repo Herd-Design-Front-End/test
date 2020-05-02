@@ -1,10 +1,11 @@
 (function(){
 	
 	//comment here
-$(window).on('load', function () {
-		$(".loader").delay(200).fadeOut("slow");
+	$(window).on('load', function () {
+		$(".loader").delay(300).fadeOut("slow");
 	});
 
+	// comment here
 	$(document).ready(function () {
 		new WOW().init();
 		$('#fullpage').fullpage({
@@ -49,6 +50,10 @@ $(window).on('load', function () {
 		$(".navmenu").click(function(){
 			$(this).toggleClass("active");
 			$(".mainmenu").toggleClass("active");
-		});	
+		});
+		
+		var test = function(){
+			console.log('test 123');
+		}
 	});
-}());
+}(jQuery));
